@@ -3,7 +3,7 @@
     "version": "1.0.2",
     "name": "Ansible-Full (via pipx)",
     "documentationURL": "http://github.com/dstout-devops/devcontainers/tree/main/src/ansibl-full",
-    "description": "Installs space-separated pipx packages with defaults.",
+    "description": "Installs entire ansible environment for development.",
     "options": {},
     "installsAfter": [
         "ghcr.io/devcontainers-contrib/features/pipx-package",
