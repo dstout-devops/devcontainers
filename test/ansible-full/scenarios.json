@@ -1,0 +1,14 @@
+{
+    "test_ubuntu": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ansible-full": {}
+        }
+    },
+    "test_debian": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "ansible-full": {}
+        }
+    }
+}
