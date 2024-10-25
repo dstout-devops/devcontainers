@@ -37,6 +37,12 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
+    --option package='ansible-bender' --option injections='ansible' --option includedeps='true'
+
+$nanolayer_location \
+    install \
+    devcontainer-feature \
+    "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
     --option package='ansible-lint' --option injections='ansible' --option includedeps='true'
     
 echo 'Done!'
