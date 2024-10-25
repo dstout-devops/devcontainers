@@ -1,6 +1,6 @@
 {
     "id": "ansible-full",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "name": "Ansible-Full (via pipx)",
     "documentationURL": "http://github.com/dstout-devops/devcontainers/tree/main/src/ansibl-full",
     "description": "Installs entire ansible environment for development.",
