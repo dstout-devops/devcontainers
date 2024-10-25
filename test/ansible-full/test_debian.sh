@@ -4,6 +4,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "ansible --version" ansible --version
+check "adt --version" adt --version
 
 reportResults
