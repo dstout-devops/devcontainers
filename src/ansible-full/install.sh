@@ -13,12 +13,12 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
-    --option package='ansible-dev-tools' --option includedeps='true'
+    --option package='ansible-dev-tools' --option injections='ansible' --option includedeps='true'
 
 $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
-    --option package='ansible-bender' --option includedeps='true'
+    --option package='ansible-bender' --option injections='ansible' includedeps='true'
     
 echo 'Done!'
