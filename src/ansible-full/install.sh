@@ -19,6 +19,24 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
-    --option package='ansible-creator' --option includedeps='true'
+    --option package='ansible-creator' --option injections='ansible' --option includedeps='true'
+
+$nanolayer_location \
+    install \
+    devcontainer-feature \
+    "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
+    --option package='ansible-builder' --option injections='ansible' --option includedeps='true'
+
+$nanolayer_location \
+    install \
+    devcontainer-feature \
+    "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
+    --option package='ansible-navigator' --option injections='ansible' --option includedeps='true'
+
+$nanolayer_location \
+    install \
+    devcontainer-feature \
+    "ghcr.io/devcontainers-contrib/features/pipx-package:1" \
+    --option package='ansible-lint' --option injections='ansible' --option includedeps='true'
     
 echo 'Done!'
